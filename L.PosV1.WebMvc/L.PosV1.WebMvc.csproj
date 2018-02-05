@@ -121,8 +121,60 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\css\jqgrid\ui.jqgrid-bootstrap-ui.css" />
+    <Content Include="Content\css\jqgrid\ui.jqgrid-bootstrap.css" />
+    <Content Include="Content\css\jqgrid\ui.jqgrid-bootstrap4.css" />
+    <Content Include="Content\css\jqgrid\ui.jqgrid.css" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-ar.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-bg.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-ca.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-cn.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-cs.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-de.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-dk.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-el.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-en.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-es.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-fa.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-fi.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-fr.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-gl.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-he.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-hr.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-hu.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-id.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-is.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-it.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-ja.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-kr.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-lt.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-me.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-nl.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-no.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-pl.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-pt-br.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-pt.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-ro.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-ru.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-sk.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-sq.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-sr-latin.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-sr.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-sv.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-th.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-tr.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-tw.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-ua.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-uk.js" />
+    <Content Include="Content\js\plugins\jqgrid\i18n\grid.locale-vi.js" />
+    <Content Include="Content\js\plugins\jqgrid\jquery.jqGrid.min.js" />
     <Content Include="Global.asax" />
+    <Content Include="SamplejqGridBS.html" />
     <Content Include="Web.config" />
+    <Content Include="Views\User\Index.cshtml" />
+    <Content Include="Views\User\Details.cshtml" />
+    <Content Include="Views\User\Create.cshtml" />
+    <Content Include="data.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -131,6 +183,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\SampleController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -264,6 +318,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Sample\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\L.PosV1.DataAccess\L.PosV1.DataAccess.csproj">

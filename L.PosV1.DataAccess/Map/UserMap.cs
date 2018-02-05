@@ -15,6 +15,7 @@ namespace L.PosV1.DataAccess.Map
             Id(x => x.tID).GeneratedBy.Assigned();
             Map(x => x.Username).Unique().Length(25).Not.Nullable();
             Map(x => x.Password);
+            Map(x => x.Name).Length(100);
 
             #region Audit Trail
             Map(x => x.CreateBy);
